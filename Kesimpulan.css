@@ -1,0 +1,64 @@
+.header{
+    width: 1280px;
+    position: fixed;  
+    margin: -10px -10px;  
+}
+.footer{
+    width: 1280px;
+    position:fixed;
+    margin: 540px 0px;
+}
+/* kode css navigator*/
+ul{
+    list-style: none;
+    background: bisque;
+    padding: 0px 0px;
+    margin: 120px -10px;
+    position: fixed;
+    width: 1300px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(138, 62, 143);
+}
+/*kode css dropdown*/
+ul li ul.dropdown{
+    background-color: bisque;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* kode css side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column.side {
+    margin: 170px 0px;
+    width: 20%;
+    background-color: white;
+}
